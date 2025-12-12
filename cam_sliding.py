@@ -9,7 +9,7 @@ mp_drawing = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 
 last_action_time = 0
-cooldown = 1.5  # detik, jeda antar slide
+cooldown = 1.5  # jeda
 
 with mp_hands.Hands(
     max_num_hands=1,
